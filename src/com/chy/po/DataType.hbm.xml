@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.chy.po">
+    <class name="DataType" table="data_type" lazy="false">
+        <id name="id"></id>
+        <property name="d_byte"></property>
+        <property name="d_short"></property>
+        <property name="d_int"></property>
+        <property name="d_long"></property>
+        <property name="d_float"></property>
+        <property name="d_double"></property>
+        <property name="d_sDate"></property>
+        <property name="d_jDate"></property>
+        <property name="d_blob"></property>
+        <property name="d_clob"></property>
+        <property name="d_char"></property>
+        <property name="d_String"></property>
+    </class>
+</hibernate-mapping>
